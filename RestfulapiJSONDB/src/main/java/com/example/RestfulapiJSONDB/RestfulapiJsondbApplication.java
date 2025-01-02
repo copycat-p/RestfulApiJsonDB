@@ -35,7 +35,7 @@ public class RestfulapiJsondbApplication {
 	
 
 
-    // POST: 데이터 추가 ################
+    // POST: 데이터 추가 ###@@@@@@@@@@@@@@@@@@@@@@@@@@
     @PostMapping("/data")
     public String createData(@RequestBody Map<String, String> request) {
         // ArrayList 메모리에 저장
